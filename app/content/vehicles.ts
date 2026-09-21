@@ -19,9 +19,8 @@ import type { FleetCar, Locale } from '~/i18n/types'
  * a longer, cheaper rental and the other for short city hires. Both statements
  * are true of the car; which one leads is an editorial choice, not a claim.
  *
- * Claims policy: no model year appears anywhere. Seats are still null for the
- * two people carriers and render only when present — the prose below never
- * states a seat count, so nothing here goes stale when the client confirms it.
+ * Claims policy: no model year appears anywhere, and the prose below never
+ * states a seat count — that comes from ~/data/business instead.
  */
 
 export interface VehicleLabels {

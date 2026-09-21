@@ -177,9 +177,8 @@ export const LOCALE_OPTIONS: LocaleOption[] = [
  * is the proof a visitor is actually looking for.
  *
  * `seats` is the standard factory layout for each model. The two people
- * carriers are the open question: a ProAce Verso and a Vivaro/Zafira Life are
- * both built in 5-, 8- and 9-seat configurations, so they are left null rather
- * than guessed, and the UI omits the figure until the client confirms it.
+ * carriers — a ProAce Verso and a Vivaro/Zafira Life — are built in 5-, 8- and
+ * 9-seat configurations; the client confirmed both of these are 8-seaters.
  *
  * `transmission` is confirmed per vehicle, from the client: manual on the Golf
  * GTI, both Rapid Spacebacks, the Vivaro/Zafira Life and the Corsa; automatic
@@ -222,7 +221,7 @@ export const FLEET_CARS: FleetCar[] = [
     generation: '2. generacija',
     colour: 'bijela',
     category: 'van',
-    seats: null,
+    seats: 8,
     transmission: 'automatic',
     image: '/images/fleet/toyota-proace-verso-kombi-bijeli.webp',
     specs: ['group', 'luggage', 'transfer', 'family'],
@@ -272,7 +271,7 @@ export const FLEET_CARS: FleetCar[] = [
     generation: '3. generacija',
     colour: 'siva',
     category: 'van',
-    seats: null,
+    seats: 8,
     transmission: 'manual',
     image: '/images/fleet/opel-vivaro-zafira-life-kombi-sivi.webp',
     specs: ['group', 'luggage', 'transfer'],

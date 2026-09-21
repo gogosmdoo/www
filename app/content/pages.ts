@@ -69,8 +69,9 @@ export const PAGE_COPY: Record<Locale, PageCopy> = {
         + 'pokušate preuzeti auto s koferima u rukama.',
         'Bihać nema aerodrom i nema smisla praviti se da ima. Zato radimo '
         + 'obrnuto od agencija koje čekaju u terminalu: vozilo dovozimo na vašu '
-        + 'adresu, pred hotel, ili vas sačekamo tamo gdje slijećete. Najbliži '
-        + 'aerodromi su Zadar, oko 150 kilometara, i Zagreb, oko 165.',
+        + 'adresu, pred hotel, ili vas sačekamo tamo gdje slijećete — uz '
+        + 'prethodni dogovor. Najbliži aerodromi su Zadar, oko 150 kilometara, '
+        + 'i Zagreb, oko 165.',
         'Ono što nas razlikuje od velikih nije flota nego uslov: ne tražimo '
         + 'kreditnu karticu. Depozit je 400 KM i vraća se u cijelosti. Za '
         + 'porodicu koja dolazi iz Njemačke na dvije sedmice to je razlika '
@@ -205,8 +206,9 @@ export const PAGE_COPY: Record<Locale, PageCopy> = {
         'Bihać hat keinen Flughafen, und es hat keinen Sinn, so zu tun als ob. '
         + 'Deshalb machen wir es umgekehrt als die Vermieter, die im Terminal '
         + 'warten: Wir bringen das Fahrzeug an Ihre Adresse, vors Hotel, oder '
-        + 'wir holen Sie dort ab, wo Sie landen. Die nächsten Flughäfen sind '
-        + 'Zadar mit rund 150 Kilometern und Zagreb mit rund 165.',
+        + 'wir holen Sie dort ab, wo Sie landen — nach vorheriger Absprache. Die '
+        + 'nächsten Flughäfen sind Zadar mit rund 150 Kilometern und Zagreb mit '
+        + 'rund 165.',
         'Was uns von den Großen unterscheidet, ist nicht der Fuhrpark, sondern '
         + 'die Bedingung: Wir verlangen keine Kreditkarte. Die Kaution beträgt '
         + '400 KM und wird vollständig erstattet. Für eine Familie, die für '
@@ -343,8 +345,8 @@ export const PAGE_COPY: Record<Locale, PageCopy> = {
         'Bihać has no airport and there is no sense pretending otherwise. So we '
         + 'work the other way round from the agencies waiting in a terminal: we '
         + 'bring the car to your address, to your hotel, or we meet you where '
-        + 'you land. The nearest airports are Zadar, about 150 kilometres away, '
-        + 'and Zagreb, about 165.',
+        + 'you land — by prior arrangement. The nearest airports are Zadar, '
+        + 'about 150 kilometres away, and Zagreb, about 165.',
         'What separates us from the large firms is not the fleet but the '
         + 'condition: we do not ask for a credit card. The deposit is 400 KM '
         + 'and you get all of it back. For a family arriving from Germany for a '
@@ -474,8 +476,8 @@ export const PAGE_COPY: Record<Locale, PageCopy> = {
         + 'وحقائبك في يديك.',
         'بيهاتش ليس فيها مطار ولا معنى للتظاهر بغير ذلك. لذلك نعمل بعكس '
         + 'الوكالات التي تنتظر في صالة الوصول: نوصل السيارة إلى عنوانك أو أمام '
-        + 'فندقك، أو نلتقيك حيث تهبط طائرتك. أقرب المطارات زادار على نحو 150 '
-        + 'كيلومتراً، وزغرب على نحو 165.',
+        + 'فندقك، أو نلتقيك حيث تهبط طائرتك — بترتيب مسبق. أقرب المطارات زادار '
+        + 'على نحو 150 كيلومتراً، وزغرب على نحو 165.',
         'ما يميّزنا عن الشركات الكبيرة ليس الأسطول بل الشرط: لا نطلب بطاقة '
         + 'ائتمان. التأمين 400 مارك ويُعاد إليك بالكامل. ولعائلة قادمة من '
         + 'ألمانيا لأسبوعين، هذا هو الفرق بين أن تحجز وألا تحجز، لأن الحجز نفسه '

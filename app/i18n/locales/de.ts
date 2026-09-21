@@ -54,7 +54,7 @@ export const de: LocaleMessages = {
       'Graues Fahrzeug von Rent a Car Gogo auf einer Straße über der Una bei '
       + 'Bihać im Morgenlicht',
     proof: [
-      'Wir bringen das Auto zu Ihnen — Adresse, Hotel oder Flughafen',
+      'Wir bringen das Auto zu Ihnen — Adresse, Hotel oder Flughafen, nach Absprache',
       'Keine versteckten Kosten — Sie kennen den Preis vor der Zusage',
     ],
   },
@@ -109,7 +109,8 @@ export const de: LocaleMessages = {
           'Bihać hat keinen Flughafen, also spielen wir keinen Schalter im '
           + 'Terminal. Wir machen es umgekehrt: Wir bringen das Fahrzeug an Ihre '
           + 'Adresse, vors Hotel, oder wir holen Sie an dem Flughafen ab, an dem '
-          + 'Sie landen. Ort und Zeit bestimmen Sie.',
+          + 'Sie landen — nach vorheriger Absprache. Ort und Zeit bestimmen Sie '
+          + 'im Voraus.',
       },
     ],
   },
@@ -349,10 +350,11 @@ export const de: LocaleMessages = {
       {
         q: 'Können Sie das Fahrzeug an meine Adresse bringen?',
         a:
-          'Ja. Wir liefern an Adressen in Bihać und Umgebung, vors Hotel, oder '
-          + 'wir holen Sie am Flughafen Zagreb oder Zadar ab. Nennen Sie Ort und '
-          + 'Zeit; für Lieferungen außerhalb von Bihać stimmen wir die '
-          + 'Bedingungen vor der Reservierung ab.',
+          'Ja, aber nur nach vorheriger Absprache. Wir liefern an Adressen in '
+          + 'Bihać und Umgebung, vors Hotel, oder wir holen Sie am Flughafen '
+          + 'Zagreb oder Zadar ab. Nennen Sie Ort und Zeit vor der Reservierung; '
+          + 'für Lieferungen außerhalb von Bihać stimmen wir dabei auch die '
+          + 'Bedingungen ab.',
       },
       {
         q: 'Wie bezahle ich die Miete?',
@@ -452,7 +454,8 @@ export const de: LocaleMessages = {
     footerNav: 'Navigation im Fußbereich',
     note:
       'Bihać hat keinen Flughafen — wir bringen das Fahrzeug an Ihre Adresse, '
-      + 'vors Hotel oder an die Flughäfen Zagreb und Zadar.',
+      + 'vors Hotel oder an die Flughäfen Zagreb und Zadar, nach vorheriger '
+      + 'Absprache.',
   },
 
   whatsappFab: 'WhatsApp',

@@ -49,7 +49,7 @@ export const en: LocaleMessages = {
       'A grey Rent a Car Gogo vehicle on a road above the Una river near Bihać '
       + 'in morning light',
     proof: [
-      'We bring the car to your address, hotel or airport',
+      'We bring the car to your address, hotel or airport, by prior arrangement',
       'No hidden costs — you get the total before you confirm',
     ],
   },
@@ -102,8 +102,8 @@ export const en: LocaleMessages = {
         body:
           'Bihać has no airport, so we do not pretend to run a desk in a '
           + 'terminal. We do the opposite: we bring the car to your address, to '
-          + 'your hotel, or we meet you at whichever airport you land at. You '
-          + 'pick the place and the time.',
+          + 'your hotel, or we meet you at whichever airport you land at — by '
+          + 'prior arrangement. You pick the place and the time in advance.',
       },
     ],
   },
@@ -341,10 +341,10 @@ export const en: LocaleMessages = {
       {
         q: 'Can you bring the car to my address?',
         a:
-          'Yes. We deliver to addresses in Bihać and the surrounding area, to '
-          + 'hotels, or we meet you at Zagreb or Zadar airport. Tell us the place '
-          + 'and time; for delivery outside Bihać we agree the terms before you '
-          + 'book.',
+          'Yes, but only by prior arrangement. We deliver to addresses in Bihać '
+          + 'and the surrounding area, to hotels, or we meet you at Zagreb or '
+          + 'Zadar airport. Tell us the place and time before you book; for '
+          + 'delivery outside Bihać we agree the terms at the same time.',
       },
       {
         q: 'How do I pay?',
@@ -441,7 +441,7 @@ export const en: LocaleMessages = {
     footerNav: 'Footer navigation',
     note:
       'Bihać has no airport — we bring the car to your address, your hotel, or to '
-      + 'Zagreb and Zadar airports.',
+      + 'Zagreb and Zadar airports, by prior arrangement.',
   },
 
   whatsappFab: 'WhatsApp',

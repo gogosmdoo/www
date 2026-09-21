@@ -62,7 +62,7 @@ export const bs: LocaleMessages = {
       'Sivo vozilo Rent a Car Gogo na cesti iznad rijeke Une u okolini Bihaća, '
       + 'u jutarnjem svjetlu',
     proof: [
-      'Vozilo dovozimo na vašu adresu, hotel ili aerodrom',
+      'Vozilo dovozimo na vašu adresu, hotel ili aerodrom, uz prethodni dogovor',
       'Bez skrivenih troškova — cijenu znate prije potvrde',
     ],
   },
@@ -120,8 +120,8 @@ export const bs: LocaleMessages = {
         body:
           'Bihać nema aerodrom, pa ne glumimo šalter u terminalu. Radimo '
           + 'obrnuto: vozilo dovozimo na vašu adresu, pred hotel, ili vas '
-          + 'sačekamo na aerodromu na koji slijećete. Dogovorite mjesto i '
-          + 'vrijeme, mi ćemo biti tamo.',
+          + 'sačekamo na aerodromu na koji slijećete — uz prethodni dogovor. '
+          + 'Dogovorite mjesto i vrijeme unaprijed, mi ćemo biti tamo.',
       },
     ],
   },
@@ -355,9 +355,10 @@ export const bs: LocaleMessages = {
       {
         q: 'Možete li dovesti vozilo na moju adresu?',
         a:
-          'Da. Dovozimo vozilo na adresu u Bihaću i okolini, pred hotel, ili vas '
-          + 'čekamo na aerodromu u Zagrebu ili Zadru. Javite mjesto i vrijeme, a '
-          + 'za dostavu izvan Bihaća dogovaramo uslove prije rezervacije.',
+          'Da, ali samo uz prethodni dogovor. Dovozimo vozilo na adresu u Bihaću '
+          + 'i okolini, pred hotel, ili vas čekamo na aerodromu u Zagrebu ili '
+          + 'Zadru. Javite mjesto i vrijeme prije rezervacije, a za dostavu izvan '
+          + 'Bihaća dogovaramo i uslove.',
       },
       {
         q: 'Kako plaćam najam?',
@@ -455,7 +456,7 @@ export const bs: LocaleMessages = {
     footerNav: 'Navigacija u podnožju',
     note:
       'Bihać nema aerodrom — vozilo dovozimo na vašu adresu, pred hotel ili na '
-      + 'aerodrom u Zagrebu i Zadru.',
+      + 'aerodrom u Zagrebu i Zadru, uz prethodni dogovor.',
   },
 
   whatsappFab: 'WhatsApp',

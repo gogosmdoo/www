@@ -34,10 +34,9 @@ export interface FleetCar {
   colour: string
   category: FleetCategory
   /*
-   * Standard factory layout. Null where the configuration is genuinely
-   * unknown — both people carriers are built as 5, 8 and 9 seaters — and the
-   * UI omits the figure rather than printing a guess a customer would discover
-   * was wrong at the counter.
+   * Standard factory layout, confirmed per vehicle. Null where genuinely
+   * unknown — the UI omits the figure rather than printing a guess a customer
+   * would discover was wrong at the counter.
    */
   seats: number | null
   /* Confirmed per vehicle by the client. */
