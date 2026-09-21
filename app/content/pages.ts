@@ -55,7 +55,7 @@ export const PAGE_COPY: Record<Locale, PageCopy> = {
     about: {
       metaTitle: 'O nama | Rent a Car Gogo Bihać',
       metaDescription:
-        'Mala rent a car agencija u Bihaću, na glavnoj cesti u Ozimicama I. '
+        'Mala rent a car agencija u Bihaću, na glavnoj cesti u blizini City centra. '
         + 'Jedanaest vozila, depozit 400 KM bez kreditne kartice, dostava na adresu.',
       title: 'Jedanaest auta i ljudi koji ih poznaju',
       lead:
@@ -63,8 +63,8 @@ export const PAGE_COPY: Record<Locale, PageCopy> = {
         + 'šalter s redom — imamo vozila i broj telefona na koji se javlja neko '
         + 'ko zna gdje je svako od njih i ko ga je zadnji vozio.',
       body: [
-        'Kancelarija nam je u Ulici dr. Irfana Ljubijankića 139, u naselju '
-        + 'Ozimice I, u nizu lokala na glavnoj cesti kroz Bihać. Nije skrivena '
+        'Kancelarija nam je u Ulici dr. Irfana Ljubijankića 139, u blizini City '
+        + 'centra, u nizu lokala na glavnoj cesti kroz Bihać. Nije skrivena '
         + 'u dvorištu i ispred nje ima gdje se stati — što zvuči sitno dok ne '
         + 'pokušate preuzeti auto s koferima u rukama.',
         'Bihać nema aerodrom i nema smisla praviti se da ima. Zato radimo '
@@ -86,7 +86,7 @@ export const PAGE_COPY: Record<Locale, PageCopy> = {
           title: 'Bez kreditne kartice',
           body:
             'Rezervacija se potvrđuje pozivom ili porukom. Plaćanje je pri '
-            + 'preuzimanju — gotovinom ili bankovnom karticom.',
+            + 'preuzimanju — gotovinom.',
         },
         {
           title: 'Depozit 400 KM',
@@ -130,7 +130,7 @@ export const PAGE_COPY: Record<Locale, PageCopy> = {
           items: [
             'Rezervacija se potvrđuje pozivom, SMS-om ili porukom na WhatsApp.',
             'Kreditna kartica nije potrebna. Ne tražimo broj kartice unaprijed.',
-            'Najam se plaća pri preuzimanju vozila — gotovinom ili bankovnom karticom.',
+            'Najam se plaća pri preuzimanju vozila — gotovinom.',
             'Ukupan iznos dogovaramo prije rezervacije, bez naknadnih stavki.',
           ],
         },
@@ -176,11 +176,11 @@ export const PAGE_COPY: Record<Locale, PageCopy> = {
       mapTitle: 'Gdje smo',
       directionsTitle: 'Kako do nas',
       directionsBody:
-        'Nalazimo se na glavnoj cesti kroz Bihać, u naselju Ozimice I, u nizu '
+        'Nalazimo se na glavnoj cesti kroz Bihać, u blizini City centra, u nizu '
         + 'poslovnih lokala s trgovinama i mesnicom. Natpis RENT-A-CAR je na '
         + 'fasadi iznad ulaza, a ispred zgrade ima parking. Dolazite li iz '
-        + 'pravca centra, vozite Ulicom dr. Irfana Ljubijankića prema '
-        + 'Ozimicama — mi smo s desne strane.',
+        + 'pravca centra, vozite Ulicom dr. Irfana Ljubijankića — mi smo s '
+        + 'desne strane, u blizini City centra.',
     },
   },
 
@@ -188,16 +188,17 @@ export const PAGE_COPY: Record<Locale, PageCopy> = {
     about: {
       metaTitle: 'Über uns | Rent a Car Gogo Bihać',
       metaDescription:
-        'Kleine Autovermietung in Bihać, an der Hauptstraße in Ozimice I. Elf '
-        + 'Fahrzeuge, Kaution 400 KM ohne Kreditkarte, Lieferung an Ihre Adresse.',
+        'Kleine Autovermietung in Bihać, an der Hauptstraße in der Nähe des City '
+        + 'Centar. Elf Fahrzeuge, Kaution 400 KM ohne Kreditkarte, Lieferung an '
+        + 'Ihre Adresse.',
       title: 'Elf Autos und Leute, die sie kennen',
       lead:
         'Rent a Car Gogo ist eine kleine Vermietung in Bihać. Kein Callcenter, '
         + 'kein Schalter mit Warteschlange — Fahrzeuge und eine Telefonnummer, '
         + 'an der jemand abnimmt, der weiß, wo jedes einzelne gerade steht.',
       body: [
-        'Unser Büro liegt in der Dr. Irfana Ljubijankića 139 im Stadtteil '
-        + 'Ozimice I, in der Ladenzeile an der Hauptstraße durch Bihać. Nicht '
+        'Unser Büro liegt in der Dr. Irfana Ljubijankića 139, in der Nähe des '
+        + 'City Centar, in der Ladenzeile an der Hauptstraße durch Bihać. Nicht '
         + 'versteckt im Hinterhof, und davor ist Platz zum Halten — was '
         + 'nebensächlich klingt, bis man mit Koffern in der Hand ein Auto '
         + 'übernehmen will.',
@@ -222,8 +223,8 @@ export const PAGE_COPY: Record<Locale, PageCopy> = {
         {
           title: 'Ohne Kreditkarte',
           body:
-            'Reservierung per Anruf oder Nachricht. Bezahlt wird bei der '
-            + 'Übernahme — bar oder mit Bankkarte.',
+            'Reservierung per Anruf oder Nachricht. Bezahlt wird bar bei der '
+            + 'Übernahme.',
         },
         {
           title: 'Kaution 400 KM',
@@ -268,7 +269,7 @@ export const PAGE_COPY: Record<Locale, PageCopy> = {
           items: [
             'Die Reservierung wird per Anruf, SMS oder WhatsApp bestätigt.',
             'Eine Kreditkarte ist nicht erforderlich. Wir verlangen vorab keine Kartennummer.',
-            'Die Miete wird bei der Übernahme bezahlt — bar oder mit Bankkarte.',
+            'Die Miete wird bar bei der Übernahme bezahlt.',
             'Den Gesamtbetrag vereinbaren wir vor der Reservierung, ohne spätere Posten.',
           ],
         },
@@ -313,11 +314,11 @@ export const PAGE_COPY: Record<Locale, PageCopy> = {
       mapTitle: 'Wo wir sind',
       directionsTitle: 'So finden Sie uns',
       directionsBody:
-        'Wir liegen an der Hauptstraße durch Bihać, im Stadtteil Ozimice I, in '
-        + 'der Ladenzeile mit Geschäften und Metzgerei. Der Schriftzug '
+        'Wir liegen an der Hauptstraße durch Bihać, in der Nähe des City '
+        + 'Centar, in der Ladenzeile mit Geschäften und Metzgerei. Der Schriftzug '
         + 'RENT-A-CAR hängt über dem Eingang, davor gibt es Parkplätze. Aus '
-        + 'Richtung Zentrum fahren Sie die Dr. Irfana Ljubijankića Richtung '
-        + 'Ozimice — wir sind auf der rechten Seite.',
+        + 'Richtung Zentrum fahren Sie die Dr. Irfana Ljubijankića entlang — '
+        + 'wir sind auf der rechten Seite, in der Nähe des City Centar.',
     },
   },
 
@@ -325,16 +326,17 @@ export const PAGE_COPY: Record<Locale, PageCopy> = {
     about: {
       metaTitle: 'About us | Rent a Car Gogo Bihać',
       metaDescription:
-        'A small car hire agency in Bihać, on the main road in Ozimice I. '
-        + 'Eleven cars, a 400 KM deposit, no credit card, delivery to your address.',
+        'A small car hire agency in Bihać, on the main road near the City '
+        + 'Centar. Eleven cars, a 400 KM deposit, no credit card, delivery to '
+        + 'your address.',
       title: 'Eleven cars and people who know them',
       lead:
         'Rent a Car Gogo is a small agency in Bihać. No call centre and no '
         + 'queue at a desk — cars, and a phone number answered by someone who '
         + 'knows where every one of them is and who drove it last.',
       body: [
-        'Our office is at Dr. Irfana Ljubijankića 139 in the Ozimice I '
-        + 'district, in the parade of shops on the main road through Bihać. It '
+        'Our office is at Dr. Irfana Ljubijankića 139, near the City Centar, '
+        + 'in the parade of shops on the main road through Bihać. It '
         + 'is not hidden in a courtyard and there is room to pull up outside — '
         + 'which sounds trivial until you try to collect a car with suitcases '
         + 'in your hands.',
@@ -358,7 +360,7 @@ export const PAGE_COPY: Record<Locale, PageCopy> = {
         {
           title: 'No credit card',
           body:
-            'Book by call or message. Pay at collection — cash or bank card.',
+            'Book by call or message. Pay in cash at collection.',
         },
         {
           title: '400 KM deposit',
@@ -402,7 +404,7 @@ export const PAGE_COPY: Record<Locale, PageCopy> = {
           items: [
             'Bookings are confirmed by call, SMS or WhatsApp message.',
             'No credit card is required. We do not ask for a card number in advance.',
-            'The hire is paid at collection — cash or bank card.',
+            'The hire is paid in cash at collection.',
             'The total is agreed before booking, with no items added later.',
           ],
         },
@@ -446,11 +448,11 @@ export const PAGE_COPY: Record<Locale, PageCopy> = {
       mapTitle: 'Where we are',
       directionsTitle: 'Finding us',
       directionsBody:
-        'We are on the main road through Bihać, in the Ozimice I district, in '
+        'We are on the main road through Bihać, near the City Centar, in '
         + 'the parade of business units with the shops and the butcher. The '
         + 'RENT-A-CAR sign is on the facade above the entrance and there is '
         + 'parking in front. Coming from the centre, follow Dr. Irfana '
-        + 'Ljubijankića towards Ozimice — we are on the right.',
+        + 'Ljubijankića — we are on the right, near the City Centar.',
     },
   },
 
@@ -458,15 +460,15 @@ export const PAGE_COPY: Record<Locale, PageCopy> = {
     about: {
       metaTitle: 'من نحن | Rent a Car Gogo بيهاتش',
       metaDescription:
-        'وكالة تأجير سيارات صغيرة في بيهاتش، على الطريق الرئيسي في أوزيميتسه '
-        + 'الأول. إحدى عشرة سيارة، تأمين 400 مارك بدون بطاقة ائتمان.',
+        'وكالة تأجير سيارات صغيرة في بيهاتش، على الطريق الرئيسي بالقرب من '
+        + 'سيتي سنتر. إحدى عشرة سيارة، تأمين 400 مارك بدون بطاقة ائتمان.',
       title: 'إحدى عشرة سيارة وأشخاص يعرفونها',
       lead:
         'Rent a Car Gogo وكالة صغيرة في بيهاتش. لا مركز اتصال ولا طابور أمام '
         + 'شبّاك — سيارات، ورقم هاتف يرد عليه شخص يعرف أين توجد كل واحدة منها '
         + 'ومن قادها آخر مرة.',
       body: [
-        'مكتبنا في شارع Dr. Irfana Ljubijankića 139 في حي أوزيميتسه الأول، ضمن '
+        'مكتبنا في شارع Dr. Irfana Ljubijankića 139، بالقرب من سيتي سنتر، ضمن '
         + 'صف المحلات على الطريق الرئيسي في بيهاتش. ليس مخفياً في فناء خلفي، '
         + 'وأمامه مكان للوقوف — وهو تفصيل يبدو بسيطاً حتى تحاول استلام سيارة '
         + 'وحقائبك في يديك.',
@@ -486,7 +488,7 @@ export const PAGE_COPY: Record<Locale, PageCopy> = {
       points: [
         {
           title: 'بدون بطاقة ائتمان',
-          body: 'الحجز بمكالمة أو رسالة. والدفع عند الاستلام — نقداً أو ببطاقة مصرفية.',
+          body: 'الحجز بمكالمة أو رسالة. والدفع نقداً عند الاستلام.',
         },
         {
           title: 'تأمين 400 مارك',
@@ -529,7 +531,7 @@ export const PAGE_COPY: Record<Locale, PageCopy> = {
           items: [
             'يُؤكَّد الحجز بمكالمة أو رسالة نصية أو عبر واتساب.',
             'بطاقة الائتمان غير مطلوبة. ولا نطلب رقم البطاقة مسبقاً.',
-            'يُدفع الإيجار عند استلام السيارة — نقداً أو ببطاقة مصرفية.',
+            'يُدفع الإيجار نقداً عند استلام السيارة.',
             'يُتفق على المبلغ الإجمالي قبل الحجز، بلا بنود تُضاف لاحقاً.',
           ],
         },
@@ -572,10 +574,10 @@ export const PAGE_COPY: Record<Locale, PageCopy> = {
       mapTitle: 'أين نحن',
       directionsTitle: 'كيف تصل إلينا',
       directionsBody:
-        'نحن على الطريق الرئيسي في بيهاتش، في حي أوزيميتسه الأول، ضمن صف '
+        'نحن على الطريق الرئيسي في بيهاتش، بالقرب من سيتي سنتر، ضمن صف '
         + 'المحلات التجارية. لافتة RENT-A-CAR على الواجهة فوق المدخل، وأمام '
         + 'المبنى موقف للسيارات. قادماً من المركز، سر في شارع Dr. Irfana '
-        + 'Ljubijankića باتجاه أوزيميتسه — نحن على اليمين.',
+        + 'Ljubijankića — نحن على اليمين، بالقرب من سيتي سنتر.',
     },
   },
 }

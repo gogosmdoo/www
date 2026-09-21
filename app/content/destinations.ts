@@ -107,7 +107,7 @@ export const DESTINATION_COPY: Record<Locale, Partial<Record<DestinationSlug, De
             + 'čas.',
             'Vozilo preuzimate na aerodromu, potpišete ugovor i ostavite depozit '
             + 'od 400 KM. Kreditna kartica nije potrebna ni u jednom koraku. '
-            + 'Plaćanje je gotovinom ili bankovnom karticom.',
+            + 'Plaćanje je gotovinom.',
             'Uslove i cijenu dostave izvan Bihaća dogovaramo prije rezervacije, '
             + 'a ne na dan preuzimanja. Recite odredište i termin i dobit ćete '
             + 'ukupan iznos.',
@@ -143,7 +143,7 @@ export const DESTINATION_COPY: Record<Locale, Partial<Record<DestinationSlug, De
           q: 'Treba li mi kreditna kartica?',
           a:
             'Ne. Depozit je 400 KM i ostavlja se pri preuzimanju vozila. '
-            + 'Plaćanje je gotovinom ili bankovnom karticom.',
+            + 'Plaćanje je gotovinom.',
         },
       ],
       cta: {
@@ -246,8 +246,8 @@ export const DESTINATION_COPY: Record<Locale, Partial<Record<DestinationSlug, De
         'Bihać je jedini grad koji leži na Uni i jedini iz kojeg se park obilazi '
         + 'bez planiranja cijelog dana putovanja. Štrbački buk je četrdesetak '
         + 'kilometara, Martin Brod nešto dalje — i do oba se ide autom.',
-      image: '/images/fleet/opel-mokka-b-suv-bijeli-crni-krov.webp',
-      imageAlt: 'Opel Mokka Rent a Car Gogo, vozilo za obilazak Nacionalnog parka Una',
+      image: '/images/fleet/opel-frontera-suv-bijeli-crni-krov.webp',
+      imageAlt: 'Opel Frontera Rent a Car Gogo, vozilo za obilazak Nacionalnog parka Una',
       facts: [
         { label: 'Do Štrbačkog buka', value: `${d.unaFalls.km} km · ${d.unaFalls.min} min` },
         { label: 'Do Plitvica', value: `${d.plitvice.km} km` },
@@ -271,7 +271,7 @@ export const DESTINATION_COPY: Record<Locale, Partial<Record<DestinationSlug, De
           body: [
             'Za asfaltirani dio parka dovoljan je bilo koji auto iz naše ponude. '
             + 'Za prilaze koji zadnjih par kilometara idu makadamom ugodnije je '
-            + 'nešto s višom pozicijom — Mokka ili Kamiq.',
+            + 'nešto s višom pozicijom — Frontera ili Kamiq.',
             'Ako idete u grupi ili nosite opremu za rafting, uzmite kombi ili '
             + 'karavan. Javite koliko vas je i šta nosite i predložit ćemo.',
           ],
@@ -358,7 +358,7 @@ export const DESTINATION_COPY: Record<Locale, Partial<Record<DestinationSlug, De
             + 'last-minute renegotiation.',
             'You take the car at the airport, sign the contract and leave the 400 '
             + 'KM deposit. No credit card is needed at any step. Payment is in '
-            + 'cash or by bank card.',
+            + 'cash.',
             'Terms and the cost of delivery outside Bihać are agreed before you '
             + 'book, not on the day. Tell us the destination and the dates and '
             + 'you get a total.',
@@ -394,7 +394,7 @@ export const DESTINATION_COPY: Record<Locale, Partial<Record<DestinationSlug, De
           q: 'Do I need a credit card?',
           a:
             'No. The deposit is 400 KM, left when you collect the car. Payment is '
-            + 'in cash or by bank card.',
+            + 'in cash.',
         },
       ],
       cta: {
@@ -499,8 +499,8 @@ export const DESTINATION_COPY: Record<Locale, Partial<Record<DestinationSlug, De
         + 'can be seen without planning a whole day of travel around it. '
         + 'Štrbački buk is about forty kilometres away, Martin Brod a little '
         + 'further — and both are reached by car.',
-      image: '/images/fleet/opel-mokka-b-suv-bijeli-crni-krov.webp',
-      imageAlt: 'An Opel Mokka from Rent a Car Gogo, a car for Una National Park',
+      image: '/images/fleet/opel-frontera-suv-bijeli-crni-krov.webp',
+      imageAlt: 'An Opel Frontera from Rent a Car Gogo, a car for Una National Park',
       facts: [
         { label: 'To Štrbački buk', value: `${d.unaFalls.km} km · ${d.unaFalls.min} min` },
         { label: 'To Plitvice', value: `${d.plitvice.km} km` },
@@ -524,7 +524,7 @@ export const DESTINATION_COPY: Record<Locale, Partial<Record<DestinationSlug, De
           body: [
             'For the surfaced part of the park any of our cars will do. For the '
             + 'approaches whose last few kilometres are gravel, something with a '
-            + 'higher stance is more comfortable — the Mokka or the Kamiq.',
+            + 'higher stance is more comfortable — the Frontera or the Kamiq.',
             'If you are travelling as a group or carrying rafting kit, take the '
             + 'minibus or an estate. Tell us how many of you there are and what '
             + 'you are carrying and we will suggest one.',
@@ -614,7 +614,7 @@ export const DESTINATION_COPY: Record<Locale, Partial<Record<DestinationSlug, De
             + 'wir, ohne dass in letzter Minute neu verhandelt wird.',
             'Sie übernehmen das Fahrzeug am Flughafen, unterschreiben den Vertrag '
             + 'und hinterlegen die Kaution von 400 KM. Eine Kreditkarte ist in '
-            + 'keinem Schritt nötig. Bezahlt wird bar oder mit Bankkarte.',
+            + 'keinem Schritt nötig. Bezahlt wird bar.',
             'Bedingungen und Kosten einer Lieferung außerhalb von Bihać werden '
             + 'vor der Reservierung vereinbart, nicht am Tag der Übernahme. '
             + 'Nennen Sie Ziel und Zeitraum, und Sie bekommen einen Gesamtbetrag.',
@@ -650,7 +650,7 @@ export const DESTINATION_COPY: Record<Locale, Partial<Record<DestinationSlug, De
           q: 'Brauche ich eine Kreditkarte?',
           a:
             'Nein. Die Kaution beträgt 400 KM und wird bei der Übernahme '
-            + 'hinterlegt. Bezahlt wird bar oder mit Bankkarte.',
+            + 'hinterlegt. Bezahlt wird bar.',
         },
       ],
       cta: {

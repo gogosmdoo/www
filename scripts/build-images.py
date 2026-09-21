@@ -165,7 +165,7 @@ FLEET = [
     ('toyota-proace-verso-kombi-bijeli', 0.55),
     ('volkswagen-golf-8-gti-crni', 0.60),
     ('skoda-rapid-spaceback-crni', 0.60),
-    ('opel-mokka-b-suv-bijeli-crni-krov', 0.58),
+    ('opel-frontera-suv-bijeli-crni-krov', 0.58),
     ('opel-vivaro-zafira-life-kombi-sivi', 0.55),
     ('skoda-rapid-spaceback-crveni', 0.60),
     ('opel-corsa-e-plava', 0.60),

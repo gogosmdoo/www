@@ -57,8 +57,7 @@ export const bs: LocaleMessages = {
     titleTail: '',
     subtitle:
       'Depozit je 400 KM (200 €) i vraća se u cijelosti. Rezervaciju potvrđujete '
-      + 'pozivom ili porukom, a plaćate tek kada preuzmete ključeve — gotovinom '
-      + 'ili bankovnom karticom.',
+      + 'pozivom ili porukom, a plaćate tek kada preuzmete ključeve — gotovinom.',
     imageAlt:
       'Sivo vozilo Rent a Car Gogo na cesti iznad rijeke Une u okolini Bihaća, '
       + 'u jutarnjem svjetlu',
@@ -105,8 +104,8 @@ export const bs: LocaleMessages = {
         title: 'Bez kreditne kartice',
         body:
           'Rezervaciju potvrđujete pozivom ili porukom — ne treba nam broj '
-          + 'kartice unaprijed. Plaćate pri preuzimanju vozila, gotovinom ili '
-          + 'bankovnom karticom. Ništa se ne blokira i ništa se ne naplaćuje '
+          + 'kartice unaprijed. Plaćate gotovinom pri preuzimanju vozila. '
+          + 'Ništa se ne blokira i ništa se ne naplaćuje '
           + 'prije nego što sjednete u auto.',
       },
       {
@@ -209,7 +208,7 @@ export const bs: LocaleMessages = {
           'Vozilo možete preuzeti kod nas u Ulici dr. Irfana Ljubijankića 139 u '
           + 'Bihaću, ili ga dovozimo na adresu koju dogovorimo. Zajedno '
           + 'pregledamo vozilo i upišemo stanje, vi potpišete ugovor, ostavite '
-          + 'depozit od 400 KM i platite najam — gotovinom ili karticom.',
+          + 'depozit od 400 KM i platite najam — gotovinom.',
       },
       {
         label: 'Tokom najma',
@@ -232,15 +231,15 @@ export const bs: LocaleMessages = {
   locations: {
     title: 'Gdje god da počinje vaš put',
     intro:
-      'Naša kancelarija je na glavnoj cesti kroz Bihać, u Ozimicama I, s '
+      'Naša kancelarija je na glavnoj cesti kroz Bihać, u blizini City centra, s '
       + 'parkingom ispred. Ali ne morate doći do nas — najčešće mi dolazimo do vas.',
     items: [
       {
         title: 'Kod nas u Bihaću',
         body:
           'Dr. Irfana Ljubijankića 139, u nizu lokala s trgovinama i mesnicom. '
-          + 'Na glavnoj cesti, lako se nađe i ima gdje se parkirati.',
-        meta: 'Ozimice I',
+          + 'Na glavnoj cesti, u blizini City centra, lako se nađe i ima gdje se parkirati.',
+        meta: 'City centar',
       },
       {
         title: 'Na vašu adresu ili pred hotel',
@@ -344,8 +343,7 @@ export const bs: LocaleMessages = {
         q: 'Treba li mi kreditna kartica za rezervaciju?',
         a:
           'Ne. Rezervaciju potvrđujete pozivom ili porukom, bez broja kartice. '
-          + 'Najam plaćate pri preuzimanju vozila, gotovinom ili bankovnom '
-          + 'karticom.',
+          + 'Najam plaćate gotovinom pri preuzimanju vozila.',
       },
       {
         q: 'Koliki je depozit i kada ga dobijam nazad?',
@@ -364,7 +362,7 @@ export const bs: LocaleMessages = {
       {
         q: 'Kako plaćam najam?',
         a:
-          'Pri preuzimanju vozila, gotovinom ili bankovnom karticom. Ukupan '
+          'Gotovinom, pri preuzimanju vozila. Ukupan '
           + 'iznos znate prije nego što potvrdite rezervaciju.',
       },
       {
@@ -392,7 +390,7 @@ export const bs: LocaleMessages = {
       {
         q: 'Gdje se tačno nalazite?',
         a:
-          'Dr. Irfana Ljubijankića 139 u Bihaću, naselje Ozimice I, na glavnoj '
+          'Dr. Irfana Ljubijankića 139 u Bihaću, u blizini City centra, na glavnoj '
           + 'cesti u nizu lokala s trgovinama. Ispred je parking.',
       },
     ],

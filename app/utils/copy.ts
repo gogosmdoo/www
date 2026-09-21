@@ -19,13 +19,7 @@ export function seatsLabel(car: FleetCar, t: LocaleMessages): string | null {
   return car.seats === null ? null : fill(t.fleet.seats, car.seats)
 }
 
-/*
- * The gearbox, or null when unknown.
- *
- * `transmission` is null for the whole fleet at the moment. A ternary on
- * `=== 'automatic'` collapses that into "manual" and states, specifically and
- * wrongly, that every car in the fleet has a manual gearbox.
- */
+/* The gearbox, or null when unknown. */
 export function gearboxLabel(
   car: FleetCar,
   spec: { automatic: string, manual: string },

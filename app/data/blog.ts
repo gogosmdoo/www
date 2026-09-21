@@ -80,7 +80,7 @@ export const BLOG_POSTS: BlogPost[] = [
           + 'međunarodnu vozačku dozvolu uz nacionalnu.',
           'Lična karta ili pasoš — isti dokument kojim ste se predstavili pri '
           + 'rezervaciji.',
-          'Sredstvo plaćanja za najam i depozit: gotovina ili bankovna kartica.',
+          'Sredstvo plaćanja za najam i depozit: gotovina.',
         ],
       },
       {
@@ -92,7 +92,7 @@ export const BLOG_POSTS: BlogPost[] = [
           + 'to ostaje blokirano danima nakon što vratite auto.',
           'Kod nas se rezervacija potvrđuje pozivom ili porukom. Ne tražimo broj '
           + 'kartice unaprijed i ništa se ne naplaćuje prije preuzimanja. Najam '
-          + 'plaćate kada dođete po vozilo — gotovinom ili bankovnom karticom.',
+          + 'plaćate kada dođete po vozilo — gotovinom.',
         ],
       },
       {

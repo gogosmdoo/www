@@ -35,6 +35,19 @@ const form = reactive({
 })
 
 /*
+ * Two of the eleven cars share a name (both Rapid Spacebacks), so the raw
+ * `car.name` alone renders two identical options a visitor cannot tell apart
+ * and, worse, sends an enquiry that does not say which one they meant. The
+ * colour is what actually distinguishes them, and every other place on the
+ * site that names a specific car already appends it the same way (see
+ * `VEHICLE_COPY.metaTitle` and `fleet.imageAlt`).
+ */
+function carOptionLabel(car: (typeof FLEET_CARS)[number]) {
+  const sameName = FLEET_CARS.filter(other => other.name === car.name).length > 1
+  return sameName ? `${car.name} (${car.colour})` : car.name
+}
+
+/*
  * Built as a computed href rather than a submit handler so the control is a
  * real link: keyboard-activatable, middle-clickable, and working before
  * hydration — none of which is true of a button waiting on JS.
@@ -224,8 +237,8 @@ const enquiryHref = computed(() => {
             <span class="field-label">{{ t.enquiry.car }}</span>
             <select v-model="form.car" name="car" class="field">
               <option value="">{{ t.enquiry.carAny }}</option>
-              <option v-for="car in FLEET_CARS" :key="car.id" :value="car.name">
-                {{ car.name }}
+              <option v-for="car in FLEET_CARS" :key="car.id" :value="carOptionLabel(car)">
+                {{ carOptionLabel(car) }}
               </option>
             </select>
           </label>

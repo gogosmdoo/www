@@ -69,7 +69,7 @@ export const VEHICLE_PRICES: VehiclePrice[] = [
   { id: 'proace-verso', tiers: { ...EMPTY }, depositBam: DEPOSIT_BAM },
   { id: 'golf-gti', tiers: { ...EMPTY }, depositBam: DEPOSIT_BAM },
   { id: 'rapid-crni', tiers: { ...EMPTY }, depositBam: DEPOSIT_BAM },
-  { id: 'mokka', tiers: { ...EMPTY }, depositBam: DEPOSIT_BAM },
+  { id: 'frontera', tiers: { ...EMPTY }, depositBam: DEPOSIT_BAM },
   { id: 'vivaro', tiers: { ...EMPTY }, depositBam: DEPOSIT_BAM },
   { id: 'rapid-crveni', tiers: { ...EMPTY }, depositBam: DEPOSIT_BAM },
   { id: 'corsa', tiers: { ...EMPTY }, depositBam: DEPOSIT_BAM },

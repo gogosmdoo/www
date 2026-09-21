@@ -19,10 +19,9 @@ import type { FleetCar, Locale } from '~/i18n/types'
  * a longer, cheaper rental and the other for short city hires. Both statements
  * are true of the car; which one leads is an editorial choice, not a claim.
  *
- * Claims policy: no model year appears anywhere. Seats and transmission are
- * null for some or all of the fleet and render only when present — the prose
- * below never states a number for either, so nothing here goes stale when the
- * client confirms them.
+ * Claims policy: no model year appears anywhere. Seats are still null for the
+ * two people carriers and render only when present — the prose below never
+ * states a seat count, so nothing here goes stale when the client confirms it.
  */
 
 export interface VehicleLabels {
@@ -123,7 +122,7 @@ export const VEHICLE_COPY: Record<Locale, VehicleLabels> = {
         + 'prtljažnik je iznenađujuće dubok za ovu klasu, i ništa na njemu nije '
         + 'suvišno. Uzimaju ga ljudi kojima auto treba sedmicu ili mjesec, ne '
         + 'jedan dan.',
-      mokka:
+      frontera:
         'Viša pozicija sjedenja bez veličine pravog SUV-a. Dobra kombinacija '
         + 'ako vozite po gradu i okolnim putevima, a ne volite da sjedite '
         + 'nisko — ulazi se lako, a parkira se kao gradski auto.',
@@ -221,7 +220,7 @@ export const VEHICLE_COPY: Record<Locale, VehicleLabels> = {
         + 'die Klasse überraschend tiefer Kofferraum, und nichts Überflüssiges '
         + 'daran. Ihn nehmen Leute, die ein Auto für eine Woche oder einen Monat '
         + 'brauchen, nicht für einen Tag.',
-      mokka:
+      frontera:
         'Erhöhte Sitzposition ohne die Größe eines echten SUV. Eine gute '
         + 'Kombination, wenn Sie in der Stadt und auf den Straßen drumherum '
         + 'unterwegs sind und nicht tief sitzen möchten — leichter Einstieg, '
@@ -321,7 +320,7 @@ export const VEHICLE_COPY: Record<Locale, VehicleLabels> = {
         + 'surprisingly deep for the class, and nothing on it you are paying for '
         + 'twice. Taken by people who need a car for a week or a month, not for '
         + 'a day.',
-      mokka:
+      frontera:
         'A raised seating position without the bulk of a real SUV. A good '
         + 'combination if you are driving in town and on the roads around it and '
         + 'would rather not sit low — easy to get into, parks like a city car.',
@@ -413,7 +412,7 @@ export const VEHICLE_COPY: Record<Locale, VehicleLabels> = {
         'أرخص طريقة لامتلاك سيارة لفترة أطول. استهلاك قليل، وصندوق عميق بشكل '
         + 'مفاجئ لهذه الفئة، وبلا زوائد. يأخذها من يحتاج سيارة لأسبوع أو شهر لا '
         + 'ليوم واحد.',
-      mokka:
+      frontera:
         'وضعية جلوس مرتفعة بلا حجم سيارة الدفع الرباعي الحقيقية. مزيج جيد إن '
         + 'كنت تقود في المدينة وعلى الطرق المحيطة ولا تحب الجلوس المنخفض — سهلة '
         + 'الدخول وتُركن كسيارة مدينة.',

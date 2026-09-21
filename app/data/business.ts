@@ -181,9 +181,9 @@ export const LOCALE_OPTIONS: LocaleOption[] = [
  * both built in 5-, 8- and 9-seat configurations, so they are left null rather
  * than guessed, and the UI omits the figure until the client confirms it.
  *
- * `transmission` is null on every car. TODO(client): this is the single most
- * asked question before a booking and we do not have the answer for any of the
- * eleven. Confirm per vehicle — the field renders the moment it is set.
+ * `transmission` is confirmed per vehicle, from the client: manual on the Golf
+ * GTI, both Rapid Spacebacks, the Vivaro/Zafira Life and the Corsa; automatic
+ * on the rest.
  *
  * `year` is deliberately absent as a field, not merely unrendered: generations
  * here span 2013 to today, and a visible model year invites a comparison the
@@ -198,7 +198,7 @@ export const FLEET_CARS: FleetCar[] = [
     colour: 'siva',
     category: 'business',
     seats: 5,
-    transmission: null,
+    transmission: 'automatic',
     image: '/images/fleet/skoda-octavia-mk4-limousine-siva.webp',
     specs: ['comfort', 'longTrips', 'business', 'luggage'],
     featured: true,
@@ -211,7 +211,7 @@ export const FLEET_CARS: FleetCar[] = [
     colour: 'bijela',
     category: 'estate',
     seats: 5,
-    transmission: null,
+    transmission: 'automatic',
     image: '/images/fleet/skoda-octavia-mk3-facelift-combi-bijela.webp',
     specs: ['luggage', 'family', 'longTrips', 'comfort'],
   },
@@ -223,7 +223,7 @@ export const FLEET_CARS: FleetCar[] = [
     colour: 'bijela',
     category: 'van',
     seats: null,
-    transmission: null,
+    transmission: 'automatic',
     image: '/images/fleet/toyota-proace-verso-kombi-bijeli.webp',
     specs: ['group', 'luggage', 'transfer', 'family'],
     featured: true,
@@ -236,7 +236,7 @@ export const FLEET_CARS: FleetCar[] = [
     colour: 'crna',
     category: 'sport',
     seats: 5,
-    transmission: null,
+    transmission: 'manual',
     image: '/images/fleet/volkswagen-golf-8-gti-crni.webp',
     specs: ['sport', 'comfort', 'longTrips'],
     featured: true,
@@ -249,20 +249,20 @@ export const FLEET_CARS: FleetCar[] = [
     colour: 'crna',
     category: 'city',
     seats: 5,
-    transmission: null,
+    transmission: 'manual',
     image: '/images/fleet/skoda-rapid-spaceback-crni.webp',
     specs: ['economy', 'cityDrive', 'easyParking'],
   },
   {
-    id: 'mokka',
-    slug: 'opel-mokka',
-    name: 'Opel Mokka',
-    generation: 'Mokka B',
+    id: 'frontera',
+    slug: 'opel-frontera',
+    name: 'Opel Frontera',
+    generation: '1. generacija',
     colour: 'bijela s crnim krovom',
     category: 'suv',
     seats: 5,
-    transmission: null,
-    image: '/images/fleet/opel-mokka-b-suv-bijeli-crni-krov.webp',
+    transmission: 'automatic',
+    image: '/images/fleet/opel-frontera-suv-bijeli-crni-krov.webp',
     specs: ['highSeat', 'cityDrive', 'comfort', 'easyParking'],
   },
   {
@@ -273,7 +273,7 @@ export const FLEET_CARS: FleetCar[] = [
     colour: 'siva',
     category: 'van',
     seats: null,
-    transmission: null,
+    transmission: 'manual',
     image: '/images/fleet/opel-vivaro-zafira-life-kombi-sivi.webp',
     specs: ['group', 'luggage', 'transfer'],
   },
@@ -285,7 +285,7 @@ export const FLEET_CARS: FleetCar[] = [
     colour: 'crvena',
     category: 'city',
     seats: 5,
-    transmission: null,
+    transmission: 'manual',
     image: '/images/fleet/skoda-rapid-spaceback-crveni.webp',
     specs: ['economy', 'cityDrive', 'easyParking'],
   },
@@ -297,7 +297,7 @@ export const FLEET_CARS: FleetCar[] = [
     colour: 'plava',
     category: 'city',
     seats: 5,
-    transmission: null,
+    transmission: 'manual',
     image: '/images/fleet/opel-corsa-e-plava.webp',
     specs: ['economy', 'cityDrive', 'easyParking'],
   },
@@ -309,7 +309,7 @@ export const FLEET_CARS: FleetCar[] = [
     colour: 'bijela',
     category: 'estate',
     seats: 5,
-    transmission: null,
+    transmission: 'automatic',
     image: '/images/fleet/seat-leon-mk3-st-karavan-bijeli.webp',
     specs: ['luggage', 'family', 'longTrips'],
   },
@@ -321,7 +321,7 @@ export const FLEET_CARS: FleetCar[] = [
     colour: 'tamnosiva',
     category: 'suv',
     seats: 5,
-    transmission: null,
+    transmission: 'automatic',
     image: '/images/fleet/skoda-kamiq-suv-tamnosiva.webp',
     specs: ['highSeat', 'cityDrive', 'comfort', 'easyParking'],
   },

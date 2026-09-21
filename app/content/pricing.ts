@@ -154,7 +154,7 @@ export const PRICING_COPY: Record<Locale, PricingCopy> = {
         {
           q: 'Kako se plaća?',
           a:
-            'Gotovinom ili bankovnom karticom, pri preuzimanju vozila. Kreditna '
+            'Gotovinom, pri preuzimanju vozila. Kreditna '
             + 'kartica nije potrebna.',
         },
         {
@@ -271,7 +271,7 @@ export const PRICING_COPY: Record<Locale, PricingCopy> = {
         {
           q: 'Wie wird bezahlt?',
           a:
-            'Bar oder mit Bankkarte, bei der Übernahme. Eine Kreditkarte ist '
+            'Bar, bei der Übernahme. Eine Kreditkarte ist '
             + 'nicht erforderlich.',
         },
         {
@@ -387,7 +387,7 @@ export const PRICING_COPY: Record<Locale, PricingCopy> = {
         {
           q: 'How do I pay?',
           a:
-            'In cash or by bank card, when you collect the car. No credit card is '
+            'In cash, when you collect the car. No credit card is '
             + 'needed.',
         },
         {
@@ -499,7 +499,7 @@ export const PRICING_COPY: Record<Locale, PricingCopy> = {
         },
         {
           q: 'كيف أدفع؟',
-          a: 'نقداً أو ببطاقة مصرفية عند استلام السيارة. ولا حاجة لبطاقة ائتمان.',
+          a: 'نقداً عند استلام السيارة. ولا حاجة لبطاقة ائتمان.',
         },
         {
           q: 'هل التوصيل مجاني؟',

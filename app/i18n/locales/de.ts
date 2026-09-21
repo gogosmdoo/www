@@ -49,7 +49,7 @@ export const de: LocaleMessages = {
     subtitle:
       'Die Kaution beträgt 400 KM (200 €) und wird vollständig erstattet. Sie '
       + 'reservieren per Anruf oder Nachricht und zahlen erst bei der Übergabe — '
-      + 'bar oder mit Bankkarte.',
+      + 'bar.',
     imageAlt:
       'Graues Fahrzeug von Rent a Car Gogo auf einer Straße über der Una bei '
       + 'Bihać im Morgenlicht',
@@ -92,9 +92,8 @@ export const de: LocaleMessages = {
         title: 'Ohne Kreditkarte',
         body:
           'Sie reservieren per Anruf oder Nachricht — wir brauchen vorab keine '
-          + 'Kartennummer. Bezahlt wird bei der Übernahme, bar oder mit '
-          + 'Bankkarte. Es wird nichts geblockt und nichts abgebucht, bevor Sie '
-          + 'im Auto sitzen.',
+          + 'Kartennummer. Bezahlt wird bar bei der Übernahme. Es wird nichts '
+          + 'geblockt und nichts abgebucht, bevor Sie im Auto sitzen.',
       },
       {
         title: 'Kaution 400 KM, keine Mark mehr',
@@ -196,8 +195,7 @@ export const de: LocaleMessages = {
           'Sie übernehmen das Fahrzeug bei uns in der Dr. Irfana Ljubijankića 139 '
           + 'in Bihać, oder wir bringen es an den vereinbarten Ort. Wir prüfen '
           + 'das Auto gemeinsam und halten den Zustand fest, Sie unterschreiben '
-          + 'den Vertrag, hinterlegen 400 KM Kaution und zahlen die Miete — bar '
-          + 'oder mit Karte.',
+          + 'den Vertrag, hinterlegen 400 KM Kaution und zahlen die Miete — bar.',
       },
       {
         label: 'Während der Miete',
@@ -221,17 +219,17 @@ export const de: LocaleMessages = {
   locations: {
     title: 'Wo auch immer Ihre Reise beginnt',
     intro:
-      'Unser Büro liegt an der Hauptstraße durch Bihać, im Stadtteil Ozimice I, '
-      + 'mit Parkplatz davor. Sie müssen aber gar nicht zu uns kommen — meistens '
-      + 'kommen wir zu Ihnen.',
+      'Unser Büro liegt an der Hauptstraße durch Bihać, in der Nähe des City '
+      + 'Centar, mit Parkplatz davor. Sie müssen aber gar nicht zu uns kommen — '
+      + 'meistens kommen wir zu Ihnen.',
     items: [
       {
         title: 'Bei uns in Bihać',
         body:
           'Dr. Irfana Ljubijankića 139, in der Ladenzeile mit Geschäften und '
-          + 'Metzgerei. Direkt an der Hauptstraße, leicht zu finden, '
-          + 'Parkmöglichkeit vorhanden.',
-        meta: 'Ozimice I',
+          + 'Metzgerei, in der Nähe des City Centar. Direkt an der Hauptstraße, '
+          + 'leicht zu finden, Parkmöglichkeit vorhanden.',
+        meta: 'City Centar',
       },
       {
         title: 'An Ihre Adresse oder vors Hotel',
@@ -339,7 +337,7 @@ export const de: LocaleMessages = {
         q: 'Brauche ich für die Reservierung eine Kreditkarte?',
         a:
           'Nein. Sie reservieren per Anruf oder Nachricht, ohne Kartennummer. '
-          + 'Bezahlt wird bei der Übernahme, bar oder mit Bankkarte.',
+          + 'Bezahlt wird bar bei der Übernahme.',
       },
       {
         q: 'Wie hoch ist die Kaution und wann bekomme ich sie zurück?',
@@ -359,7 +357,7 @@ export const de: LocaleMessages = {
       {
         q: 'Wie bezahle ich die Miete?',
         a:
-          'Bei der Übernahme, bar oder mit Bankkarte. Den Gesamtbetrag kennen '
+          'Bar, bei der Übernahme. Den Gesamtbetrag kennen '
           + 'Sie, bevor Sie die Reservierung bestätigen.',
       },
       {
@@ -388,7 +386,7 @@ export const de: LocaleMessages = {
       {
         q: 'Wo genau finde ich Sie?',
         a:
-          'Dr. Irfana Ljubijankića 139 in Bihać, Stadtteil Ozimice I, an der '
+          'Dr. Irfana Ljubijankića 139 in Bihać, in der Nähe des City Centar, an der '
           + 'Hauptstraße in der Ladenzeile. Parkplatz vor der Tür.',
       },
     ],

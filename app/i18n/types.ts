@@ -40,9 +40,7 @@ export interface FleetCar {
    * was wrong at the counter.
    */
   seats: number | null
-  /*
-   * TODO(client): unknown for all eleven cars. Renders the moment it is set.
-   */
+  /* Confirmed per vehicle by the client. */
   transmission: 'automatic' | 'manual' | null
   /* Card and page hero, 16:10. A `-sm` variant exists beside every one. */
   image: string

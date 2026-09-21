@@ -44,7 +44,7 @@ export const en: LocaleMessages = {
     titleTail: '',
     subtitle:
       'The deposit is 400 KM (€200) and you get all of it back. Confirm by call '
-      + 'or message, and pay when you pick the car up — cash or bank card.',
+      + 'or message, and pay in cash when you pick the car up.',
     imageAlt:
       'A grey Rent a Car Gogo vehicle on a road above the Una river near Bihać '
       + 'in morning light',
@@ -87,9 +87,8 @@ export const en: LocaleMessages = {
         title: 'No credit card',
         body:
           'You confirm by call or message — we do not need a card number up '
-          + 'front. You pay when you collect the car, in cash or by bank card. '
-          + 'Nothing is blocked and nothing is charged before you are sitting in '
-          + 'it.',
+          + 'front. You pay in cash when you collect the car. Nothing is blocked '
+          + 'and nothing is charged before you are sitting in it.',
       },
       {
         title: 'A 400 KM deposit, and not a mark more',
@@ -190,7 +189,7 @@ export const en: LocaleMessages = {
           'Collect from us at Dr. Irfana Ljubijankića 139 in Bihać, or we deliver '
           + 'to an agreed address. We check the car over together and record its '
           + 'condition, you sign the contract, leave the 400 KM deposit and pay '
-          + 'for the hire — cash or card.',
+          + 'for the hire — in cash.',
       },
       {
         label: 'During the hire',
@@ -213,15 +212,17 @@ export const en: LocaleMessages = {
   locations: {
     title: 'Wherever your trip starts',
     intro:
-      'Our office is on the main road through Bihać, in Ozimice I, with parking '
-      + 'outside. But you do not have to come to us — usually we come to you.',
+      'Our office is on the main road through Bihać, near the City Centar, with '
+      + 'parking outside. But you do not have to come to us — usually we come to '
+      + 'you.',
     items: [
       {
         title: 'At our office in Bihać',
         body:
-          'Dr. Irfana Ljubijankića 139, in the parade of shops with the butcher. '
-          + 'On the main road, easy to find, somewhere to park.',
-        meta: 'Ozimice I',
+          'Dr. Irfana Ljubijankića 139, in the parade of shops with the butcher, '
+          + 'near the City Centar. On the main road, easy to find, somewhere to '
+          + 'park.',
+        meta: 'City Centar',
       },
       {
         title: 'To your address or hotel',
@@ -328,7 +329,7 @@ export const en: LocaleMessages = {
         q: 'Do I need a credit card to book?',
         a:
           'No. You confirm by call or message, with no card number. You pay for '
-          + 'the hire when you collect the car, in cash or by bank card.',
+          + 'the hire in cash when you collect the car.',
       },
       {
         q: 'How much is the deposit and when do I get it back?',
@@ -348,7 +349,7 @@ export const en: LocaleMessages = {
       {
         q: 'How do I pay?',
         a:
-          'When you collect the car, in cash or by bank card. You know the total '
+          'In cash, when you collect the car. You know the total '
           + 'before you confirm the booking.',
       },
       {
@@ -375,7 +376,7 @@ export const en: LocaleMessages = {
       {
         q: 'Where exactly are you?',
         a:
-          'Dr. Irfana Ljubijankića 139 in Bihać, in the Ozimice I district, on '
+          'Dr. Irfana Ljubijankića 139 in Bihać, near the City Centar, on '
           + 'the main road in the parade of shops. There is parking outside.',
       },
     ],
